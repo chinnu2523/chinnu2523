@@ -1,0 +1,21 @@
+<svg width="900" height="24" viewBox="0 0 900 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divGradLeft" x1="0" y1="0" x2="450" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="divGradRight" x1="450" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="50" y1="12" x2="435" y2="12" stroke="url(#divGradLeft)" stroke-width="1"/>
+  <line x1="465" y1="12" x2="850" y2="12" stroke="url(#divGradRight)" stroke-width="1"/>
+  <!-- Center Crest Diamond -->
+  <g transform="translate(450, 12)">
+    <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)" fill="#0A0F1D" stroke="#D4AF37" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="1.5" fill="#38BDF8"/>
+  </g>
+</svg>

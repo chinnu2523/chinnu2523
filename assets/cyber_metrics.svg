@@ -1,0 +1,108 @@
+<svg width="880" height="175" viewBox="0 0 880 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;family=JetBrains+Mono:wght@500;700;800&amp;family=Inter:wght@400;600&amp;display=swap');
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .cinzel { font-family: 'Cinzel', serif; }
+      .sans { font-family: 'Inter', sans-serif; }
+      .glow-gold { filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4)); }
+      .glow-cyan { filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.35)); }
+      .glow-green { filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.4)); }
+    </style>
+    <linearGradient id="bgMat" x1="0" y1="0" x2="880" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="50%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#040609"/>
+    </linearGradient>
+    <linearGradient id="borderMat" x1="0" y1="0" x2="880" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Deck -->
+  <rect width="880" height="175" rx="12" fill="url(#bgMat)"/>
+  <rect x="1" y="1" width="878" height="173" rx="11" stroke="url(#borderMat)" stroke-width="1.2" fill="none"/>
+
+  <!-- Top Title Bar -->
+  <rect x="1" y="1" width="878" height="34" rx="11" fill="#090E1C"/>
+  <line x1="1" y1="35" x2="879" y2="35" stroke="#1E293B" stroke-width="1"/>
+  
+  <circle cx="24" cy="18" r="3.5" fill="#10B981" class="glow-green"/>
+  <text x="36" y="22" fill="#D4AF37" font-size="10.5" font-weight="700" class="mono">
+    DEFENSE TELEMETRY // CORE PERFORMANCE BENCHMARKS
+  </text>
+  <text x="856" y="22" text-anchor="end" fill="#64748B" font-size="9.5" class="mono">
+    STATUS // ALL SYSTEMS NOMINAL
+  </text>
+
+  <!-- Column Dividers -->
+  <line x1="220" y1="45" x2="220" y2="165" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="440" y1="45" x2="440" y2="165" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="660" y1="45" x2="660" y2="165" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Column 1: OWASP Coverage -->
+  <g transform="translate(110, 50)" text-anchor="middle">
+    <text x="0" y="18" fill="#38BDF8" font-size="9" font-weight="600" class="mono glow-cyan">
+      // ATTACK SURFACE
+    </text>
+    <text x="0" y="55" fill="#FFFFFF" font-size="34" font-weight="800" class="cinzel glow-white">
+      10/10
+    </text>
+    <text x="0" y="78" fill="#E2E8F0" font-size="11" font-weight="600" class="sans">
+      OWASP Top 10 Vectors
+    </text>
+    <text x="0" y="96" fill="#94A3B8" font-size="9.5" class="mono">
+      Custom Scanner Engine
+    </text>
+  </g>
+
+  <!-- Column 2: Academic Merit -->
+  <g transform="translate(330, 50)" text-anchor="middle">
+    <text x="0" y="18" fill="#D4AF37" font-size="9" font-weight="600" class="mono glow-gold">
+      // ACADEMIC MERIT
+    </text>
+    <text x="0" y="55" fill="#FFFFFF" font-size="34" font-weight="800" class="cinzel glow-white">
+      8.7
+    </text>
+    <text x="0" y="78" fill="#E2E8F0" font-size="11" font-weight="600" class="sans">
+      BCA Cumulative GPA
+    </text>
+    <text x="0" y="96" fill="#94A3B8" font-size="9.5" class="mono">
+      KL University Distinction
+    </text>
+  </g>
+
+  <!-- Column 3: Credentials -->
+  <g transform="translate(550, 50)" text-anchor="middle">
+    <text x="0" y="18" fill="#10B981" font-size="9" font-weight="600" class="mono glow-green">
+      // DEFENSE BADGES
+    </text>
+    <text x="0" y="55" fill="#FFFFFF" font-size="34" font-weight="800" class="cinzel glow-white">
+      11+
+    </text>
+    <text x="0" y="78" fill="#E2E8F0" font-size="11" font-weight="600" class="sans">
+      Verified Certifications
+    </text>
+    <text x="0" y="96" fill="#94A3B8" font-size="9.5" class="mono">
+      Aviatrix ACE • Google • ISC2
+    </text>
+  </g>
+
+  <!-- Column 4: Field Engagements -->
+  <g transform="translate(770, 50)" text-anchor="middle">
+    <text x="0" y="18" fill="#F59E0B" font-size="9" font-weight="600" class="mono glow-gold">
+      // FIELD ENGAGEMENTS
+    </text>
+    <text x="0" y="55" fill="#FFFFFF" font-size="34" font-weight="800" class="cinzel glow-white">
+      3
+    </text>
+    <text x="0" y="78" fill="#E2E8F0" font-size="11" font-weight="600" class="sans">
+      Security Internships
+    </text>
+    <text x="0" y="96" fill="#94A3B8" font-size="9.5" class="mono">
+      Edufyi • Corizo • Skill Dunia
+    </text>
+  </g>
+</svg>
