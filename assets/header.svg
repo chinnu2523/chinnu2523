@@ -1,15 +1,14 @@
 <svg width="920" height="340" viewBox="0 0 920 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&amp;family=Great+Vibes&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=Great+Vibes&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
       .cursive {
         font-family: 'Great Vibes', 'Brush Script MT', cursive;
         font-style: italic;
       }
       .monumental {
         font-family: 'Cinzel', 'Trajan Pro', 'Georgia', serif;
-        font-weight: 800;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.1em;
       }
       .mono {
         font-family: 'JetBrains Mono', 'Courier New', monospace;
@@ -18,10 +17,10 @@
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       }
       .glow-gold {
-        filter: drop-shadow(0 0 12px rgba(223, 183, 108, 0.45));
+        filter: drop-shadow(0 0 10px rgba(223, 183, 108, 0.45));
       }
       .glow-soft {
-        filter: drop-shadow(0 0 8px rgba(223, 183, 108, 0.2));
+        filter: drop-shadow(0 0 8px rgba(223, 183, 108, 0.22));
       }
     </style>
 
@@ -42,12 +41,11 @@
 
     <linearGradient id="goldTextGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="45%" stop-color="#F8FAFC"/>
-      <stop offset="85%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
       <stop offset="100%" stop-color="#DFB76C"/>
     </linearGradient>
 
-    <radialGradient id="goldBloom" cx="260" cy="110" r="380" gradientUnits="userSpaceOnUse">
+    <radialGradient id="goldBloom" cx="240" cy="120" r="360" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#DFB76C" stop-opacity="0.14"/>
       <stop offset="45%" stop-color="#9E7D3B" stop-opacity="0.04"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
@@ -59,11 +57,11 @@
     </radialGradient>
 
     <linearGradient id="borderGrad" x1="0" y1="0" x2="920" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#DFB76C" stop-opacity="0.8"/>
-      <stop offset="20%" stop-color="#2A2A2E" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#DFB76C" stop-opacity="0.3"/>
-      <stop offset="80%" stop-color="#2A2A2E" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#DFB76C" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#DFB76C" stop-opacity="0.85"/>
+      <stop offset="25%" stop-color="#2A2A2E" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#DFB76C" stop-opacity="0.35"/>
+      <stop offset="75%" stop-color="#2A2A2E" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#DFB76C" stop-opacity="0.85"/>
     </linearGradient>
 
     <pattern id="telemetryGrid" width="24" height="24" patternUnits="userSpaceOnUse">
@@ -115,27 +113,32 @@
   </g>
 
   <!-- Thin Telemetry Divider -->
-  <line x1="28" y1="60" x2="892" y2="60" stroke="#26262B" stroke-width="0.8"/>
+  <line x1="28" y1="58" x2="892" y2="58" stroke="#26262B" stroke-width="0.8"/>
 
   <!-- HERO IDENTITY BLOCK (LEFT COLUMN) -->
-  <g transform="translate(28, 76)">
+  <g transform="translate(28, 70)">
     <!-- Cursive "I'm" -->
-    <text x="4" y="38" class="cursive glow-soft" font-size="38" fill="#DFB76C">I'm</text>
+    <text x="4" y="28" class="cursive glow-soft" font-size="34" fill="#DFB76C">I'm</text>
 
-    <!-- Monumental Serif Name -->
-    <text x="2" y="86" class="monumental" font-size="32" fill="url(#goldTextGrad)">
-      VEERA GURU DATTA <tspan fill="#DFB76C" text-decoration="underline">SRINIDHI VISAKA</tspan>
+    <!-- Monumental Serif Name: Line 1 -->
+    <text x="2" y="66" class="monumental" font-size="24" font-weight="700" fill="#F1F5F9">
+      VEERA GURU DATTA
+    </text>
+
+    <!-- Monumental Serif Name: Line 2 (Highlight) -->
+    <text x="2" y="100" class="monumental glow-soft" font-size="30" font-weight="900" fill="#DFB76C">
+      SRINIDHI VISAKA
     </text>
 
     <!-- Role Badge & Distinction -->
-    <g transform="translate(4, 110)">
-      <text x="0" y="14" class="sans" font-size="13" font-weight="600" fill="#DFB76C" letter-spacing="0.06em">
+    <g transform="translate(4, 118)">
+      <text x="0" y="12" class="sans" font-size="12" font-weight="600" fill="#DFB76C" letter-spacing="0.06em">
         LEAD PENETRATION TESTER &amp; MULTI-CLOUD SECURITY ARCHITECT
       </text>
     </g>
 
     <!-- Status Monospace Pill -->
-    <g transform="translate(4, 138)">
+    <g transform="translate(4, 142)">
       <rect x="0" y="0" width="460" height="24" rx="4" fill="#0A0A0E" stroke="#333338" stroke-width="0.8"/>
       <circle cx="12" cy="12" r="3" fill="#10B981"/>
       <text x="24" y="16" class="mono" font-size="9.5" fill="#E2E8F0" letter-spacing="0.06em">
@@ -144,33 +147,33 @@
     </g>
 
     <!-- Strategic Mission Statement -->
-    <text x="4" y="190" class="sans" font-size="12" fill="#94A3B8" letter-spacing="0.02em">
+    <text x="4" y="190" class="sans" font-size="11.5" fill="#94A3B8" letter-spacing="0.02em">
       Architecting sovereign zero-trust mesh perimeters, multi-cloud transit encryption,
     </text>
-    <text x="4" y="210" class="sans" font-size="12" fill="#94A3B8" letter-spacing="0.02em">
+    <text x="4" y="208" class="sans" font-size="11.5" fill="#94A3B8" letter-spacing="0.02em">
       and orchestrating offensive adversary emulation with zero-leakage security guarantees.
     </text>
 
     <!-- Micro Tags -->
     <g transform="translate(4, 226)" class="mono" font-size="9.5">
-      <rect x="0" y="0" width="102" height="18" rx="2" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
-      <text x="51" y="13" fill="#DFB76C" text-anchor="middle">OWASP TOP 10</text>
+      <rect x="0" y="0" width="102" height="20" rx="3" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
+      <text x="51" y="14" fill="#DFB76C" text-anchor="middle">OWASP TOP 10</text>
 
-      <rect x="110" y="0" width="112" height="18" rx="2" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
-      <text x="166" y="13" fill="#E2E8F0" text-anchor="middle">AVIATRIX ACE</text>
+      <rect x="110" y="0" width="112" height="20" rx="3" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
+      <text x="166" y="14" fill="#E2E8F0" text-anchor="middle">AVIATRIX ACE</text>
 
-      <rect x="230" y="0" width="124" height="18" rx="2" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
-      <text x="292" y="13" fill="#DFB76C" text-anchor="middle">BURP SUITE PRO</text>
+      <rect x="230" y="0" width="124" height="20" rx="3" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
+      <text x="292" y="14" fill="#DFB76C" text-anchor="middle">BURP SUITE PRO</text>
 
-      <rect x="362" y="0" width="102" height="18" rx="2" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
-      <text x="413" y="13" fill="#10B981" text-anchor="middle">TATA CYBER</text>
+      <rect x="362" y="0" width="102" height="20" rx="3" fill="#131318" stroke="#26262B" stroke-width="0.8"/>
+      <text x="413" y="14" fill="#10B981" text-anchor="middle">TATA CYBER</text>
     </g>
   </g>
 
   <!-- GPG CRYPTOGRAPHIC KEY BLOCK (RIGHT VITRINE CONTAINER) -->
-  <g transform="translate(564, 76)">
+  <g transform="translate(564, 72)">
     <!-- Container Card -->
-    <rect x="0" y="0" width="328" height="240" rx="8" fill="#09090C" stroke="#333338" stroke-width="1"/>
+    <rect x="0" y="0" width="328" height="244" rx="8" fill="#09090C" stroke="#333338" stroke-width="1"/>
     <!-- Chamfer / Accent Corner -->
     <path d="M 312 0 L 328 16 L 328 0 Z" fill="#DFB76C" fill-opacity="0.6"/>
 
@@ -199,10 +202,10 @@
       <text x="0" y="126" fill="#64748B">ENCLAVE: <tspan fill="#CBD5E1">Vijayawada (AP, India)</tspan></text>
 
       <!-- Terminal Status Strip -->
-      <line x1="0" y1="140" x2="300" y2="140" stroke="#26262B" stroke-width="0.8"/>
+      <line x1="0" y1="142" x2="300" y2="142" stroke="#26262B" stroke-width="0.8"/>
       
-      <text x="0" y="160" fill="#10B981" font-weight="700" font-size="10">STATE: VERIFIED</text>
-      <text x="300" y="160" fill="#DFB76C" font-size="10" text-anchor="end" font-weight="600">SOC-TIER-1</text>
+      <text x="0" y="162" fill="#10B981" font-weight="700" font-size="10">STATE: VERIFIED</text>
+      <text x="300" y="162" fill="#DFB76C" font-size="10" text-anchor="end" font-weight="600">SOC-TIER-1</text>
     </g>
   </g>
 </svg>
