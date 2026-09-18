@@ -1,7 +1,7 @@
 <svg width="920" height="240" viewBox="0 0 920 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
       .monumental {
         font-family: 'Cinzel', 'Trajan Pro', 'Georgia', serif;
       }
@@ -11,56 +11,41 @@
       .sans {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       }
-      .glow-gold {
-        filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
-      }
-      .glow-cyan {
-        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4));
+      .glow-white {
+        filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
       }
     </style>
 
-    <!-- Portfolio Obsidian Card Background -->
+    <!-- Obsidian Card Background -->
     <linearGradient id="metricBg" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0E101A"/>
-      <stop offset="60%" stop-color="#0A0B12"/>
-      <stop offset="100%" stop-color="#05070B"/>
+      <stop offset="0%" stop-color="#0E1015"/>
+      <stop offset="60%" stop-color="#08090D"/>
+      <stop offset="100%" stop-color="#020305"/>
     </linearGradient>
 
-    <!-- Gold Accent Line -->
-    <linearGradient id="goldCardLine" x1="0" y1="0" x2="276" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFF2B2" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    <!-- Liquid Platinum Card Accent Filament -->
+    <linearGradient id="platinumCardLine" x1="0" y1="0" x2="276" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Cyan Accent Line -->
-    <linearGradient id="cyanCardLine" x1="0" y1="0" x2="276" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="goldStat" x1="0" y1="0" x2="0" y2="30" gradientUnits="userSpaceOnUse">
+    <!-- Stat Text Gradient -->
+    <linearGradient id="statGrad" x1="0" y1="0" x2="0" y2="30" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#FFF2B2"/>
-      <stop offset="100%" stop-color="#D4AF37"/>
-    </linearGradient>
-
-    <linearGradient id="cyanStat" x1="0" y1="0" x2="0" y2="30" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#E0F2FE"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
     </linearGradient>
   </defs>
 
   <!-- PANEL 1: EMPIRICAL DEFENSE METRICS (LEFT) -->
   <g transform="translate(24, 16)">
-    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1"/>
-    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#goldCardLine)" stroke-width="1.2"/>
+    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.18"/>
+    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#platinumCardLine)" stroke-width="1.2"/>
 
     <g transform="translate(18, 24)">
-      <text x="0" y="0" class="mono" font-size="8.5" fill="#D4AF37" font-weight="600" letter-spacing="0.1em">
-        AGGREGATED AUDIT INDEX
+      <text x="0" y="0" class="mono" font-size="8.5" fill="#94A3B8" font-weight="600" letter-spacing="0.16em">
+        01 / AUDIT INDEX
       </text>
       <text x="0" y="18" class="monumental" font-size="13" font-weight="700" fill="#FFFFFF">
         Empirical Defense Metrics
@@ -69,40 +54,40 @@
       <!-- Metric 1 -->
       <g transform="translate(0, 36)">
         <text x="0" y="16" class="mono" font-size="9" fill="#94A3B8">FINDINGS CATALOGED</text>
-        <text x="240" y="16" class="mono glow-cyan" font-size="15" font-weight="700" fill="#38BDF8" text-anchor="end">1,420+</text>
-        <line x1="0" y1="24" x2="240" y2="24" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="240" y="16" class="monumental glow-white" font-size="15" font-weight="800" fill="url(#statGrad)" text-anchor="end">1,420+</text>
+        <line x1="0" y1="24" x2="240" y2="24" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.08"/>
       </g>
 
       <!-- Metric 2 -->
       <g transform="translate(0, 68)">
         <text x="0" y="16" class="mono" font-size="9" fill="#94A3B8">DEFENSE POSTURE INDEX</text>
-        <text x="240" y="16" class="mono" font-size="15" font-weight="700" fill="#10B981" text-anchor="end">99.4%</text>
-        <line x1="0" y1="24" x2="240" y2="24" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="240" y="16" class="monumental glow-white" font-size="15" font-weight="800" fill="url(#statGrad)" text-anchor="end">99.4%</text>
+        <line x1="0" y1="24" x2="240" y2="24" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.08"/>
       </g>
 
       <!-- Metric 3 -->
       <g transform="translate(0, 100)">
         <text x="0" y="16" class="mono" font-size="9" fill="#94A3B8">UNRESOLVED CRITICAL CVEs</text>
-        <text x="240" y="16" class="mono" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="end">0</text>
-        <line x1="0" y1="24" x2="240" y2="24" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="240" y="16" class="monumental glow-white" font-size="15" font-weight="800" fill="url(#statGrad)" text-anchor="end">0</text>
+        <line x1="0" y1="24" x2="240" y2="24" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.08"/>
       </g>
 
       <!-- Bottom Tag -->
       <g transform="translate(0, 138)" class="mono" font-size="8.5">
-        <text x="0" y="10" fill="#64748B">SOC_TIER: <tspan fill="#10B981" font-weight="600">1 READY</tspan></text>
-        <text x="240" y="10" fill="#64748B" text-anchor="end">POSTURE: <tspan fill="#D4AF37" font-weight="600">OPTIMAL</tspan></text>
+        <text x="0" y="10" fill="#64748B">SOC_TIER: <tspan fill="#FFFFFF" font-weight="600">1 READY</tspan></text>
+        <text x="240" y="10" fill="#64748B" text-anchor="end">POSTURE: <tspan fill="#FFFFFF" font-weight="600">OPTIMAL</tspan></text>
       </g>
     </g>
   </g>
 
-  <!-- PANEL 2: TACTICAL RADAR SENTINEL (MIDDLE - PORTFOLIO RADAR) -->
+  <!-- PANEL 2: TACTICAL RADAR SENTINEL (MIDDLE) -->
   <g transform="translate(322, 16)">
-    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
-    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#cyanCardLine)" stroke-width="1.2"/>
+    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.18"/>
+    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#platinumCardLine)" stroke-width="1.2"/>
 
     <g transform="translate(18, 24)">
-      <text x="0" y="0" class="mono" font-size="8.5" fill="#38BDF8" font-weight="600" letter-spacing="0.1em">
-        TELEMETRY_RADAR // SENTRY
+      <text x="0" y="0" class="mono" font-size="8.5" fill="#94A3B8" font-weight="600" letter-spacing="0.16em">
+        02 / THREAT SENTRY
       </text>
       <text x="0" y="18" class="monumental" font-size="13" font-weight="700" fill="#FFFFFF">
         Active Defense Grid
@@ -112,53 +97,53 @@
     <!-- Radar Graphic -->
     <g transform="translate(70, 126)">
       <!-- Radar Rings -->
-      <circle cx="0" cy="0" r="46" fill="none" stroke="#1E293B" stroke-width="0.8"/>
-      <circle cx="0" cy="0" r="30" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="3 3"/>
-      <circle cx="0" cy="0" r="15" fill="none" stroke="#334155" stroke-width="0.8"/>
-      <circle cx="0" cy="0" r="2" fill="#38BDF8"/>
+      <circle cx="0" cy="0" r="46" fill="none" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.12"/>
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.12" stroke-dasharray="3 3"/>
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.16"/>
+      <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 
       <!-- Crosshairs -->
-      <line x1="-50" y1="0" x2="50" y2="0" stroke="#1E293B" stroke-width="0.8"/>
-      <line x1="0" y1="-50" x2="0" y2="50" stroke="#1E293B" stroke-width="0.8"/>
+      <line x1="-50" y1="0" x2="50" y2="0" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.12"/>
+      <line x1="0" y1="-50" x2="0" y2="50" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.12"/>
 
       <!-- Sweep Sector -->
-      <path d="M 0 0 L 32 -32 A 46 46 0 0 1 44 -12 Z" fill="#38BDF8" fill-opacity="0.18"/>
-      <line x1="0" y1="0" x2="32" y2="-32" stroke="#38BDF8" stroke-width="1.2"/>
+      <path d="M 0 0 L 32 -32 A 46 46 0 0 1 44 -12 Z" fill="#FFFFFF" fill-opacity="0.12"/>
+      <line x1="0" y1="0" x2="32" y2="-32" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.75"/>
 
       <!-- Blips -->
-      <circle cx="20" cy="-22" r="2.5" fill="#10B981"/>
-      <circle cx="-18" cy="24" r="2" fill="#D4AF37"/>
-      <circle cx="28" cy="14" r="2" fill="#38BDF8"/>
+      <circle cx="20" cy="-22" r="2.5" fill="#FFFFFF" class="glow-white"/>
+      <circle cx="-18" cy="24" r="2" fill="#CBD5E1"/>
+      <circle cx="28" cy="14" r="2" fill="#94A3B8"/>
     </g>
 
     <!-- Radar Labels -->
     <g transform="translate(136, 80)" class="mono" font-size="8.5">
       <g transform="translate(0, 0)">
-        <circle cx="0" cy="0" r="2" fill="#10B981"/>
+        <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
         <text x="8" y="3" fill="#FFFFFF">OWASP SCANNER</text>
-        <text x="8" y="14" fill="#10B981" font-size="7.5">[ 850 REQ/S ]</text>
+        <text x="8" y="14" fill="#94A3B8" font-size="7.5">[ 850 REQ/S ]</text>
       </g>
       <g transform="translate(0, 32)">
-        <circle cx="0" cy="0" r="2" fill="#D4AF37"/>
+        <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
         <text x="8" y="3" fill="#FFFFFF">AVIATRIX MESH</text>
-        <text x="8" y="14" fill="#D4AF37" font-size="7.5">[ MULTI-CLOUD ]</text>
+        <text x="8" y="14" fill="#94A3B8" font-size="7.5">[ MULTI-CLOUD ]</text>
       </g>
       <g transform="translate(0, 64)">
-        <circle cx="0" cy="0" r="2" fill="#38BDF8"/>
+        <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
         <text x="8" y="3" fill="#FFFFFF">ESP32 SENTRY</text>
-        <text x="8" y="14" fill="#38BDF8" font-size="7.5">[ 802.11 AUDIT ]</text>
+        <text x="8" y="14" fill="#94A3B8" font-size="7.5">[ 802.11 AUDIT ]</text>
       </g>
     </g>
   </g>
 
   <!-- PANEL 3: REPOSITORY TELEMETRY & INTEGRITY (RIGHT) -->
   <g transform="translate(620, 16)">
-    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1"/>
-    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#goldCardLine)" stroke-width="1.2"/>
+    <rect width="276" height="208" rx="8" fill="url(#metricBg)" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.18"/>
+    <line x1="20" y1="1" x2="256" y2="1" stroke="url(#platinumCardLine)" stroke-width="1.2"/>
 
     <g transform="translate(18, 24)">
-      <text x="0" y="0" class="mono" font-size="8.5" fill="#D4AF37" font-weight="600" letter-spacing="0.1em">
-        CONTINUOUS COMMITS STREAM
+      <text x="0" y="0" class="mono" font-size="8.5" fill="#94A3B8" font-weight="600" letter-spacing="0.16em">
+        03 / COMMITS STREAM
       </text>
       <text x="0" y="18" class="monumental" font-size="13" font-weight="700" fill="#FFFFFF">
         Cryptographic Integrity
@@ -166,23 +151,23 @@
 
       <!-- Stat Big -->
       <g transform="translate(0, 38)">
-        <text x="0" y="0" class="monumental glow-gold" font-size="28" font-weight="800" fill="url(#goldStat)">1,248+</text>
-        <text x="110" y="-8" class="mono" font-size="10" font-weight="600" fill="#FFF2B2">COMMITS / YR</text>
+        <text x="0" y="0" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">1,248+</text>
+        <text x="110" y="-8" class="mono" font-size="10" font-weight="600" fill="#FFFFFF">COMMITS / YR</text>
       </g>
 
       <!-- Security Checklist -->
-      <g transform="translate(0, 66)" class="mono" font-size="8.5" fill="#E2E8F0">
-        <text x="0" y="12"><tspan fill="#10B981">✔</tspan> Ed25519 GPG Signed Commits</text>
-        <text x="0" y="28"><tspan fill="#10B981">✔</tspan> Zero Exposed API Secrets</text>
-        <text x="0" y="44"><tspan fill="#10B981">✔</tspan> PTES &amp; OWASP Top 10 Compliant</text>
-        <text x="0" y="60"><tspan fill="#10B981">✔</tspan> Hardened CI/CD Defenses</text>
+      <g transform="translate(0, 66)" class="mono" font-size="8.5" fill="#CBD5E1">
+        <text x="0" y="12"><tspan fill="#FFFFFF">✔</tspan> Ed25519 GPG Signed Commits</text>
+        <text x="0" y="28"><tspan fill="#FFFFFF">✔</tspan> Zero Exposed API Secrets</text>
+        <text x="0" y="44"><tspan fill="#FFFFFF">✔</tspan> PTES &amp; OWASP Top 10 Compliant</text>
+        <text x="0" y="60"><tspan fill="#FFFFFF">✔</tspan> Hardened CI/CD Defenses</text>
       </g>
 
       <!-- Bottom Tag -->
-      <line x1="0" y1="138" x2="240" y2="138" stroke="#1E293B" stroke-width="0.8"/>
+      <line x1="0" y1="138" x2="240" y2="138" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.08"/>
       <g transform="translate(0, 150)" class="mono" font-size="8.5">
         <text x="0" y="0" fill="#64748B">PIPELINE AUDIT:</text>
-        <text x="240" y="0" fill="#D4AF37" font-weight="600" text-anchor="end">100% VERIFIED</text>
+        <text x="240" y="0" fill="#FFFFFF" font-weight="600" text-anchor="end">100% VERIFIED</text>
       </g>
     </g>
   </g>

@@ -1,32 +1,32 @@
 <div align="center">
 
-<img src="assets/header.svg?v=3" width="100%" alt="Veera Guru Datta Srinidhi Visaka — Sovereign Cyber Command" />
+<img src="assets/header.svg?v=4" width="100%" alt="Veera Guru Datta Srinidhi Visaka — Sovereign Cyber Command" />
 
 <br/>
 
 <a href="https://chinnu2523.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3400&pause=900&color=38BDF8&background=04060900&center=true&vCenter=true&multiline=false&width=840&lines=%2F%2F+Offensive+Cybersecurity+Architect+%26+Multi-Cloud+Specialist;%2F%2F+Architecting+Zero-Trust+Enclaves+(AWS%2C+Azure%2C+GCP%2C+Aviatrix);%2F%2F+Offensive+Red-Team+Reconnaissance+%26+OWASP+Top+10+Automation;%2F%2F+KL+University+BCA+Distinction+(8.7+CGPA)+%E2%80%A2+Aviatrix+ACE+Certified;%2F%2F+Real-Time+Threat+Intelligence+%26+Tier-1+SOC+Operations" alt="Typing Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3400&pause=900&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=840&lines=%2F%2F+Offensive+Cybersecurity+Architect+%26+Multi-Cloud+Specialist;%2F%2F+Architecting+Zero-Trust+Enclaves+(AWS%2C+Azure%2C+GCP%2C+Aviatrix);%2F%2F+Preemptive+Adversarial+Simulations+%26+OWASP+Automation;%2F%2F+KL+University+BCA+Distinction+(8.7+CGPA)+%E2%80%A2+Aviatrix+ACE+Certified;%2F%2F+Real-Time+Threat+Intelligence+%26+Tier-1+SOC+Operations" alt="Typing Telemetry" />
 </a>
 
 <br/>
 
 <a href="https://chinnu2523.github.io" target="_blank">
-  <img src="https://img.shields.io/badge/🌐_SOVEREIGN_PORTFOLIO-chinnu2523.github.io-38BDF8?style=for-the-badge&labelColor=05070A&color=D4AF37" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/🌐_SOVEREIGN_PORTFOLIO-chinnu2523.github.io-FFFFFF?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/visaka-srinidhi-a445a82al" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Visaka_Srinidhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=05070A" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-Visaka_Srinidhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:chinnu.visakas@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Secure_Dispatch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=05070A" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-Secure_Dispatch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
 </a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=chinnu2523&style=for-the-badge&color=D4AF37&labelColor=05070A&label=CYBER+TELEMETRY" alt="Profile Telemetry" />
+<img src="https://komarev.com/ghpvc/?username=chinnu2523&style=for-the-badge&color=FFFFFF&labelColor=000000&label=CYBER+TELEMETRY" alt="Profile Telemetry" />
 
 <br/><br/>
 
-<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 
 </div>
 
@@ -41,7 +41,7 @@ Status:      Open for Strategic Security Engagements, Red Team Roles & Cloud Arc
 ```
 
 <div align="center">
-  <img src="assets/bento_dossier.svg?v=3" width="100%" alt="Strategic Executive Dossier Bento Grid" />
+  <img src="assets/bento_dossier.svg?v=4" width="100%" alt="Strategic Executive Dossier Bento Grid" />
 </div>
 
 <br/>
@@ -76,7 +76,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 </table>
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## ⚙️ [ 02 ] Real-World Engineering &amp; Defense Modules
@@ -89,45 +89,45 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **MODULE::04<br/>TATA Enterprise Cyber Defense Simulation** | Identity Access &amp; Incident Triage | `IAM` `Active Directory` `Incident Triage` `Forage` | End-to-end enterprise identity governance review, privilege escalation prevention, and incident triage response playbooks. |
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## 🛡️ [ 03 ] Sovereign Technical Arsenal
 
 ### ⚔️ Offensive Security &amp; PenTesting `[ TIER::RED ]`
 <p>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Burp_Suite_Pro-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/OWASP_Top_10-D4AF37?style=for-the-badge&logo=owasp&logoColor=black&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Nmap-002B49?style=for-the-badge&logo=nmap&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Linux_CLI-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=05070A" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Burp_Suite_Pro-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/OWASP_Top_10-FFFFFF?style=for-the-badge&logo=owasp&logoColor=black&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Nmap-002B49?style=for-the-badge&logo=nmap&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Linux_CLI-FFFFFF?style=for-the-badge&logo=linux&logoColor=black&labelColor=000000" />
 </p>
 
 ### ☁️ Multi-Cloud &amp; Zero-Trust Architecture `[ TIER::MESH ]`
 <p>
-  <img src="https://img.shields.io/badge/Aviatrix_ACE-D4AF37?style=for-the-badge&logo=cloud&logoColor=black&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=05070A" />
+  <img src="https://img.shields.io/badge/Aviatrix_ACE-FFFFFF?style=for-the-badge&logo=cloud&logoColor=black&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" />
 </p>
 
 ### 💻 Programming &amp; Systems Engineering `[ TIER::CODE ]`
 <p>
-  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/C_Language-A8B9CC?style=for-the-badge&logo=c&logoColor=black&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/SQL_Engine-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/ESP32_IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white&labelColor=05070A" />
-  <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white&labelColor=05070A" />
+  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/C_Language-A8B9CC?style=for-the-badge&logo=c&logoColor=black&labelColor=000000" />
+  <img src="https://img.shields.io/badge/SQL_Engine-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/ESP32_IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white&labelColor=000000" />
 </p>
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## 📜 [ 04 ] Accredited Credentials &amp; Certifications
@@ -142,7 +142,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **Enterprise Cybersecurity Analyst Simulation** | TATA / Forage | Incident Response &amp; IAM Hardening | Simulation Completed |
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## 💼 Verified Field Engagements
@@ -171,25 +171,25 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 ```
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## 📊 [ 05 ] Threat Neutralization &amp; GitHub Telemetry
 
 <div align="center">
 
-<img src="assets/cyber_metrics.svg?v=3" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
+<img src="assets/cyber_metrics.svg?v=4" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chinnu2523&theme=dark&background=05070a&border=d4af37&stroke=1e293b&ring=d4af37&fire=10b981&currStreakLabel=38bdf8&sideLabels=94a3b8&currStreakNum=ffffff&sideNums=ffffff&dates=64748b&hide_border=false" width="100%" alt="GitHub Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chinnu2523&theme=dark&background=000000&border=ffffff25&stroke=1e293b&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=94a3b8&currStreakNum=ffffff&sideNums=ffffff&dates=64748b&hide_border=false" width="100%" alt="GitHub Streak Stats" />
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
 </div>
 
 ## 📬 [ 06 ] Diplomatic Dispatch &amp; Secure Inquiries
@@ -228,7 +228,7 @@ Attestation: All repositories and cryptographic artifacts certified tamper-proof
 ```
 
 <div align="center">
-  <img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=4" width="100%" alt="Divider" />
   <p align="center">
     <sub>⚜️ SOVEREIGN EXECUTIVE CYBERSECURITY ARCHITECTURE // SRINIDHI VISAKA ⚜️</sub><br/>
     <sub>Engineered with Precision &amp; Passion • All Rights Reserved</sub>

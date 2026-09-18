@@ -19,221 +19,205 @@
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       }
       .glow-white {
-        filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.4));
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.45));
       }
-      .glow-gold {
-        filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.45));
-      }
-      .glow-cyan {
-        filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.4));
+      .glow-soft {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.25));
       }
     </style>
 
-    <!-- Obsidian Void Gradients (Portfolio Style) -->
+    <!-- Pitch Black / Obsidian Void (Portfolio Theme) -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="920" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#040609"/>
-      <stop offset="45%" stop-color="#070B14"/>
-      <stop offset="85%" stop-color="#05070B"/>
-      <stop offset="100%" stop-color="#020305"/>
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#050608"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
 
-    <!-- Liquid Platinum / Pure White Text Gradient -->
+    <!-- Liquid Platinum Monolithic Text Gradient -->
     <linearGradient id="platinumTextGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="45%" stop-color="#F8FAFC"/>
-      <stop offset="75%" stop-color="#E2E8F0"/>
+      <stop offset="40%" stop-color="#F8FAFC"/>
+      <stop offset="75%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+
+    <!-- Stat Text Gradient (Pure White to Silver) -->
+    <linearGradient id="statGrad" x1="0" y1="0" x2="0" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F1F5F9"/>
       <stop offset="100%" stop-color="#94A3B8"/>
     </linearGradient>
 
-    <!-- Royal Gold Accent Gradient -->
-    <linearGradient id="goldAccentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#D4AF37"/>
-      <stop offset="50%" stop-color="#FFF2B2"/>
-      <stop offset="100%" stop-color="#D4AF37"/>
-    </linearGradient>
-
-    <!-- Ambient Studio Spotlight & Sapphire Glows -->
-    <radialGradient id="haloSpotlight" cx="240" cy="110" r="380" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
-      <stop offset="40%" stop-color="#38BDF8" stop-opacity="0.06"/>
-      <stop offset="75%" stop-color="#1E3A8A" stop-opacity="0.04"/>
+    <!-- Ambient Studio Spotlight (Centered Halo) -->
+    <radialGradient id="studioSpotlight" cx="480" cy="170" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="goldGlow" cx="740" cy="170" r="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.10"/>
-      <stop offset="50%" stop-color="#8C6826" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Precision Gilded Border Gradient -->
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="920" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.85"/>
-      <stop offset="25%" stop-color="#1E293B" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.5"/>
-      <stop offset="75%" stop-color="#1E293B" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.85"/>
-    </linearGradient>
-
-    <!-- Cyber Background Matrix Grid -->
-    <pattern id="cyberGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.35"/>
+    <!-- Subtle Cyber Matrix Pattern -->
+    <pattern id="matrixGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.04"/>
     </pattern>
+
+    <!-- Hairline Silver Border -->
+    <linearGradient id="silverBorder" x1="0" y1="0" x2="920" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+    </linearGradient>
   </defs>
 
-  <!-- Base Obsidian Chassis -->
-  <rect width="920" height="340" rx="14" fill="url(#bgGrad)"/>
-  <rect width="920" height="340" rx="14" fill="url(#cyberGrid)"/>
-  <rect width="920" height="340" rx="14" fill="url(#haloSpotlight)"/>
-  <rect width="920" height="340" rx="14" fill="url(#goldGlow)"/>
+  <!-- Base Jet Black Canvas -->
+  <rect width="920" height="340" rx="12" fill="url(#bgGrad)"/>
+  <rect width="920" height="340" rx="12" fill="url(#matrixGrid)"/>
+  <rect width="920" height="340" rx="12" fill="url(#studioSpotlight)"/>
 
-  <!-- Top Specular Platinum Filament -->
-  <line x1="40" y1="1.5" x2="880" y2="1.5" stroke="url(#goldAccentGrad)" stroke-width="1.2" stroke-opacity="0.8"/>
+  <!-- Top Specular Platinum Beam -->
+  <line x1="30" y1="1" x2="890" y2="1" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.5"/>
 
-  <!-- Outer Precision Borders -->
-  <rect x="1.5" y="1.5" width="917" height="337" rx="13" stroke="url(#borderGrad)" stroke-width="1.2" fill="none"/>
-  <rect x="7" y="7" width="906" height="326" rx="9" stroke="#1E293B" stroke-width="0.8" fill="none" stroke-opacity="0.6"/>
+  <!-- Outer Precision Hairline Borders -->
+  <rect x="1" y="1" width="918" height="338" rx="11" stroke="url(#silverBorder)" stroke-width="1" fill="none"/>
+  <rect x="6" y="6" width="908" height="328" rx="8" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.08" fill="none"/>
 
-  <!-- Tactical Reticles & Corner Brackets -->
-  <g stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.9">
-    <path d="M 16 26 L 16 16 L 26 16"/>
-    <path d="M 894 16 L 904 16 L 904 26"/>
-    <path d="M 16 314 L 16 324 L 26 324"/>
-    <path d="M 904 314 L 904 324 L 894 324"/>
+  <!-- Corner Precision Crosshairs -->
+  <g stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.75">
+    <path d="M 14 22 L 14 14 L 22 14"/>
+    <path d="M 898 14 L 906 14 L 906 22"/>
+    <path d="M 14 318 L 14 326 L 22 326"/>
+    <path d="M 906 318 L 906 326 L 898 326"/>
   </g>
 
-  <!-- TOP TELEMETRY STRIP -->
-  <g class="mono" font-size="10.5">
-    <!-- Academic Distinction Badge -->
-    <rect x="28" y="22" width="310" height="24" rx="4" fill="#0D0E15" stroke="rgba(212, 175, 55, 0.35)" stroke-width="0.8"/>
-    <circle cx="40" cy="34" r="3" fill="#D4AF37" class="glow-gold"/>
-    <text x="50" y="38" fill="#FFF2B2" font-weight="600" letter-spacing="0.08em">SEC_AUDIT // KL UNIVERSITY 8.7 CGPA</text>
+  <!-- CENTER ORBITAL CYBERNETIC RINGS (Exact Portfolio Motif) -->
+  <g transform="translate(470, 170)" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="0.8" fill="none">
+    <circle cx="0" cy="0" r="50"/>
+    <circle cx="0" cy="0" r="95" stroke-dasharray="4 6"/>
+    <circle cx="0" cy="0" r="145"/>
+    <circle cx="0" cy="0" r="195" stroke-dasharray="2 4"/>
 
-    <!-- Sys Ref (Cyber Blue) -->
-    <text x="356" y="38" fill="#94A3B8" letter-spacing="0.06em">
-      <tspan fill="#64748B">SYS_REF::</tspan><tspan fill="#38BDF8" font-weight="600">0x9E7D_VISAKA</tspan>
-    </text>
-
-    <!-- Coordinates -->
-    <text x="690" y="38" fill="#94A3B8" letter-spacing="0.08em" text-anchor="end">
-      <tspan fill="#D4AF37">LAT_ENC::</tspan>16.5062° N
-    </text>
-    <circle cx="704" cy="34" r="1.5" fill="#64748B"/>
-    <text x="892" y="38" fill="#94A3B8" letter-spacing="0.08em" text-anchor="end">
-      <tspan fill="#D4AF37">LON_ENC::</tspan>80.6480° E
-    </text>
+    <!-- Orbital Node Indicators -->
+    <circle cx="0" cy="-50" r="2.5" fill="#FFFFFF" fill-opacity="0.6"/>
+    <circle cx="95" cy="0" r="2.5" fill="#FFFFFF" fill-opacity="0.6"/>
+    <circle cx="-145" cy="0" r="2.5" fill="#FFFFFF" fill-opacity="0.6"/>
+    <circle cx="0" cy="195" r="2.5" fill="#FFFFFF" fill-opacity="0.6"/>
   </g>
 
-  <!-- Thin Telemetry Divider -->
-  <line x1="28" y1="56" x2="892" y2="56" stroke="#1E293B" stroke-width="0.8"/>
+  <!-- FLOATING HUD CAPSULES (Portfolio Style) -->
+  <g class="mono" font-size="9" fill="#FFFFFF">
+    <!-- 8.7 CGPA KL UNIV (Top Center) -->
+    <g transform="translate(416, 22)">
+      <rect width="138" height="22" rx="11" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
+      <circle cx="14" cy="11" r="2.5" fill="#FFFFFF"/>
+      <text x="24" y="14.5" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em">8.7 CGPA <tspan fill="#94A3B8">KL UNIV</tspan></text>
+    </g>
 
-  <!-- HERO IDENTITY BLOCK (LEFT COLUMN - EXACT PORTFOLIO COLORING) -->
-  <g transform="translate(28, 68)">
+    <!-- ED25519 VERIFIED (Bottom Center) -->
+    <g transform="translate(414, 296)">
+      <rect width="144" height="22" rx="11" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
+      <circle cx="14" cy="11" r="2.5" fill="#FFFFFF"/>
+      <text x="24" y="14.5" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em">ED25519 VERIFIED</text>
+    </g>
+  </g>
+
+  <!-- ================= LEFT WING (EXACT PORTFOLIO HERO) ================= -->
+  <g transform="translate(32, 38)">
     <!-- Whisper-Thin Clearance Kicker -->
-    <g transform="translate(2, 14)">
-      <circle cx="5" cy="0" r="3" fill="#38BDF8" class="glow-cyan"/>
-      <text x="16" y="4" class="mono" font-size="10" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="5" r="3" fill="#FFFFFF" class="glow-soft"/>
+      <text x="16" y="9" class="mono" font-size="10.5" font-weight="600" fill="#94A3B8" letter-spacing="0.24em">
         OFFENSIVE CYBERSECURITY ARCHITECT
       </text>
     </g>
 
     <!-- Stacked Monolithic Headline: I'm VISAKA (Exact Portfolio Styling) -->
-    <g transform="translate(2, 54)">
+    <g transform="translate(0, 48)">
       <!-- Cursive "I" + Royal Italic "'m" -->
-      <text x="0" y="0" class="cursive glow-white" font-size="44" fill="#FFFFFF">I</text>
-      <text x="18" y="-6" class="royal-italic" font-size="28" fill="#94A3B8">'m</text>
+      <text x="0" y="0" class="cursive glow-white" font-size="46" fill="#FFFFFF">I</text>
+      <text x="20" y="-8" class="royal-italic" font-size="30" fill="#94A3B8">'m</text>
 
       <!-- Giant Monolithic VISAKA in Cinzel -->
-      <text x="62" y="2" class="monumental glow-white" font-size="48" font-weight="900" fill="url(#platinumTextGrad)" letter-spacing="0.06em">
+      <text x="64" y="2" class="monumental glow-white" font-size="52" font-weight="900" fill="url(#platinumTextGrad)" letter-spacing="0.06em">
         VISAKA
       </text>
     </g>
 
-    <!-- Official Full Name in Royal Gold -->
-    <g transform="translate(4, 88)">
-      <text x="0" y="0" class="monumental" font-size="13" font-weight="700" fill="#D4AF37" letter-spacing="0.22em">
+    <!-- Subtitle & Role -->
+    <g transform="translate(2, 88)">
+      <text x="0" y="0" class="mono" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
+        LEAD PENETRATION TESTER &amp; MULTI-CLOUD SPECIALIST
+      </text>
+      <text x="0" y="18" class="monumental" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
         VEERA GURU DATTA SRINIDHI VISAKA
       </text>
     </g>
 
-    <!-- Subtitle & Role (Cyber Sky Blue) -->
-    <g transform="translate(4, 110)">
-      <text x="0" y="0" class="mono" font-size="11.5" font-weight="600" fill="#38BDF8" letter-spacing="0.1em">
-        LEAD PENETRATION TESTER &amp; MULTI-CLOUD SPECIALIST
-      </text>
+    <!-- Narrative Paragraph -->
+    <g transform="translate(2, 134)" class="sans" font-size="11" fill="#94A3B8" letter-spacing="0.01em">
+      <text x="0" y="0">Architecting resilient zero-trust enclaves and executing preemptive adversarial</text>
+      <text x="0" y="16">simulations across critical multi-cloud infrastructures. KL University BCA</text>
+      <text x="0" y="32">scholar (8.7 CGPA) with verified field engagements at Edufyi, Corizo &amp; Skill Dunia.</text>
     </g>
 
-    <!-- Status Monospace Pill -->
-    <g transform="translate(4, 126)">
-      <rect x="0" y="0" width="464" height="24" rx="4" fill="#0D0E15" stroke="rgba(212, 175, 55, 0.3)" stroke-width="0.8"/>
-      <circle cx="12" cy="12" r="3" fill="#10B981"/>
-      <text x="24" y="16" class="mono" font-size="9.5" fill="#E2E8F0" letter-spacing="0.06em">
-        <tspan fill="#10B981" font-weight="700">TIER-1 SOC READY</tspan> // ED25519 CRYPTOGRAPHICALLY VERIFIED
-      </text>
-    </g>
+    <!-- Executive Action Buttons (Portfolio Exact Triplets) -->
+    <g transform="translate(2, 212)" class="mono" font-size="10">
+      <!-- Button 1: Solid White Pill (Explore Projects) -->
+      <g>
+        <rect width="154" height="30" rx="15" fill="#FFFFFF" class="glow-soft"/>
+        <text x="70" y="19" fill="#000000" font-weight="800" letter-spacing="0.06em" text-anchor="middle">EXPLORE PROJECTS</text>
+        <text x="138" y="19" fill="#000000" font-weight="800">&gt;</text>
+      </g>
 
-    <!-- Editorial Narrative Statement (From Portfolio) -->
-    <g transform="translate(4, 172)" class="sans" font-size="11.5" fill="#94A3B8" letter-spacing="0.01em">
-      <text x="0" y="0">Architecting resilient zero-trust enclaves &amp; executing preemptive adversarial simulations.</text>
-      <text x="0" y="18">KL University BCA scholar (8.7 CGPA) with verified field engagements across Edufyi, Corizo &amp; Skill Dunia.</text>
-    </g>
+      <!-- Button 2: Dark Glass Pill (>_ CLI) -->
+      <g transform="translate(164, 0)">
+        <rect width="84" height="30" rx="15" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+        <text x="42" y="19" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">&gt;_ CLI</text>
+      </g>
 
-    <!-- Executive Action Pills (High Contrast Portfolio Style) -->
-    <g transform="translate(4, 216)" class="mono" font-size="9.5">
-      <!-- White High-Contrast Badge -->
-      <rect x="0" y="0" width="112" height="22" rx="4" fill="#FFFFFF"/>
-      <text x="56" y="15" fill="#000000" font-weight="700" text-anchor="middle">OWASP TOP 10</text>
-
-      <!-- Royal Gold Pill -->
-      <rect x="122" y="0" width="112" height="22" rx="4" fill="#0D0E15" stroke="#D4AF37" stroke-width="0.8"/>
-      <text x="178" y="15" fill="#D4AF37" font-weight="600" text-anchor="middle">AVIATRIX ACE</text>
-
-      <!-- Cyber Blue Pill -->
-      <rect x="244" y="0" width="124" height="22" rx="4" fill="#0D0E15" stroke="#38BDF8" stroke-width="0.8"/>
-      <text x="306" y="15" fill="#38BDF8" font-weight="600" text-anchor="middle">BURP SUITE PRO</text>
-
-      <!-- Emerald Pill -->
-      <rect x="378" y="0" width="102" height="22" rx="4" fill="#0D0E15" stroke="#10B981" stroke-width="0.8"/>
-      <text x="429" y="15" fill="#10B981" font-weight="600" text-anchor="middle">TATA CYBER</text>
+      <!-- Button 3: Dark Glass Pill (RESUME) -->
+      <g transform="translate(258, 0)">
+        <rect width="98" height="30" rx="15" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+        <text x="49" y="19" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">RESUME</text>
+      </g>
     </g>
   </g>
 
-  <!-- GPG CRYPTOGRAPHIC KEY BLOCK (RIGHT VITRINE CONTAINER - PORTFOLIO GILDED GLASS) -->
-  <g transform="translate(560, 70)">
-    <!-- Container Card -->
-    <rect x="0" y="0" width="332" height="246" rx="8" fill="#0D0E15" stroke="rgba(212, 175, 55, 0.35)" stroke-width="1"/>
-    <!-- Gilded Corner Accent -->
-    <path d="M 316 0 L 332 16 L 332 0 Z" fill="#D4AF37" fill-opacity="0.8"/>
-
-    <!-- Key Block Header -->
-    <rect x="0" y="0" width="332" height="32" rx="8" fill="#131520"/>
-    <rect x="0" y="24" width="332" height="8" fill="#131520"/>
-    <line x1="0" y1="32" x2="332" y2="32" stroke="rgba(212, 175, 55, 0.2)" stroke-width="0.8"/>
-
-    <g class="mono" font-size="10.5">
-      <circle cx="16" cy="16" r="3" fill="#D4AF37" class="glow-gold"/>
-      <text x="28" y="20" fill="#FFF2B2" font-weight="700" letter-spacing="0.08em">GPG::KEY_BLOCK</text>
-      <text x="316" y="20" fill="#38BDF8" text-anchor="end" font-weight="600">0x9E7D3B51</text>
+  <!-- ================= RIGHT WING (EXACT PORTFOLIO DOSSIER STATS) ================= -->
+  <g transform="translate(610, 36)">
+    <!-- Metric 1: Academic Merit -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">01 / ACADEMIC MERIT</text>
+      <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">8.7 CGPA</text>
+      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">KL University — BCA Scholar (Distinction)</text>
     </g>
 
-    <!-- Key Block Telemetry Content -->
-    <g class="mono" font-size="9" fill="#94A3B8" transform="translate(14, 46)">
-      <text x="0" y="10" fill="#64748B">-----BEGIN PGP SIGNED MESSAGE-----</text>
-      <text x="0" y="26" fill="#D4AF37">Hash: SHA256 / Ed25519 Multi-Cloud</text>
-      
-      <rect x="0" y="34" width="304" height="42" rx="4" fill="#06070A" stroke="#1E293B" stroke-width="0.8"/>
-      <text x="8" y="50" fill="#E2E8F0" font-size="8.5" letter-spacing="0.04em">F83B 1657 FF1F C53B 92DC 1814 8A1D 65DF</text>
-      <text x="8" y="66" fill="#E2E8F0" font-size="8.5" letter-spacing="0.04em">C2D4 B1FA 3D67 7284 ADDD 2001 26D9 069A</text>
+    <!-- Hairline Separator -->
+    <line x1="0" y1="68" x2="276" y2="68" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
 
-      <text x="0" y="94" fill="#64748B">UID: <tspan fill="#FFFFFF" font-weight="600">Veera Guru Datta Srinidhi Visaka</tspan></text>
-      <text x="0" y="110" fill="#64748B">ROLES: <tspan fill="#D4AF37">Edufyi • Corizo • Skill Dunia</tspan></text>
-      <text x="0" y="126" fill="#64748B">ENCLAVE: <tspan fill="#38BDF8">Vijayawada (AP, India)</tspan></text>
+    <!-- Metric 2: Field Engagements -->
+    <g transform="translate(0, 82)">
+      <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">02 / FIELD ENGAGEMENTS</text>
+      <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">3 ROLES</text>
+      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">Edufyi • Corizo • Skill Dunia</text>
+    </g>
 
-      <!-- Terminal Status Strip -->
-      <line x1="0" y1="142" x2="304" y2="142" stroke="#1E293B" stroke-width="0.8"/>
-      
-      <text x="0" y="162" fill="#10B981" font-weight="700" font-size="10">STATE: VERIFIED</text>
-      <text x="304" y="162" fill="#38BDF8" font-size="10" text-anchor="end" font-weight="600">SOC-TIER-1</text>
+    <!-- Hairline Separator -->
+    <line x1="0" y1="150" x2="276" y2="150" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
+
+    <!-- Metric 3: Defense Certifications -->
+    <g transform="translate(0, 164)">
+      <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">03 / DEFENSE CERTIFICATIONS</text>
+      <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">11+ BADGES</text>
+      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">Aviatrix ACE • Google Cybersecurity</text>
+    </g>
+
+    <!-- Bottom Command Base Capsule -->
+    <g transform="translate(0, 236)">
+      <rect width="276" height="24" rx="12" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
+      <circle cx="14" cy="12" r="3" fill="#FFFFFF"/>
+      <text x="24" y="16" class="mono" font-size="9" fill="#FFFFFF" letter-spacing="0.06em">
+        VIJAYAWADA, INDIA // TIER-1 SOC READY
+      </text>
     </g>
   </g>
 </svg>

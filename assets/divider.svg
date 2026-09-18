@@ -7,27 +7,27 @@
       }
     </style>
     <linearGradient id="divLeft" x1="0" y1="0" x2="380" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
-      <stop offset="60%" stop-color="#1E293B" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.9"/>
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.6"/>
     </linearGradient>
     <linearGradient id="divRight" x1="540" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#1E293B" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
   <!-- Left and Right Filament Lines -->
-  <line x1="20" y1="14" x2="370" y2="14" stroke="url(#divLeft)" stroke-width="1.2"/>
-  <line x1="550" y1="14" x2="900" y2="14" stroke="url(#divRight)" stroke-width="1.2"/>
+  <line x1="20" y1="14" x2="370" y2="14" stroke="url(#divLeft)" stroke-width="1"/>
+  <line x1="550" y1="14" x2="900" y2="14" stroke="url(#divRight)" stroke-width="1"/>
 
-  <!-- Center Telemetry Pill (Portfolio Gilded Glass) -->
+  <!-- Center Telemetry Pill (Portfolio Pure Monochrome Style) -->
   <g transform="translate(366, 2)">
-    <rect width="188" height="24" rx="4" fill="#0D0E15" stroke="rgba(212, 175, 55, 0.35)" stroke-width="0.8"/>
-    <!-- Little Diamond Reticles -->
-    <path d="M 12 12 L 15 9 L 18 12 L 15 15 Z" fill="#D4AF37"/>
-    <text x="94" y="16" class="mono" font-size="9" fill="#F1F5F9" font-weight="600" letter-spacing="0.16em" text-anchor="middle">SOVEREIGN // SEC_OPS</text>
-    <path d="M 170 12 L 173 9 L 176 12 L 173 15 Z" fill="#38BDF8"/>
+    <rect width="188" height="24" rx="12" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
+    <!-- Center Diamond -->
+    <path d="M 14 12 L 17 9 L 20 12 L 17 15 Z" fill="#FFFFFF"/>
+    <text x="94" y="16" class="mono" font-size="9" fill="#FFFFFF" font-weight="600" letter-spacing="0.16em" text-anchor="middle">SOVEREIGN // SEC_OPS</text>
+    <path d="M 168 12 L 171 9 L 174 12 L 171 15 Z" fill="#FFFFFF"/>
   </g>
 </svg>
