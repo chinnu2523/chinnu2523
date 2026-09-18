@@ -121,101 +121,105 @@
   </g>
 
   <!-- ================= LEFT WING (EXACT PORTFOLIO HERO) ================= -->
-  <g transform="translate(32, 44)">
+  <g transform="translate(34, 32)">
     <!-- Whisper-Thin Clearance Kicker -->
     <g transform="translate(0, 0)">
       <circle cx="5" cy="5" r="3" fill="#FFFFFF" class="glow-soft"/>
-      <text x="16" y="9" class="mono" font-size="10.5" font-weight="600" fill="#94A3B8" letter-spacing="0.24em">
+      <text x="16" y="9" class="mono" font-size="10" font-weight="600" fill="#94A3B8" letter-spacing="0.26em">
         OFFENSIVE CYBERSECURITY ARCHITECT
       </text>
     </g>
 
-    <!-- Stacked Monolithic Headline: I'm VISAKA (Refined Proportional Styling) -->
-    <g transform="translate(0, 40)">
-      <!-- Cursive "I" + Royal Italic "'m" -->
-      <text x="0" y="0" class="cursive glow-white" font-size="28" fill="#FFFFFF">I</text>
-      <text x="14" y="-6" class="royal-italic" font-size="18" fill="#94A3B8">'m</text>
+    <!-- Stacked Monolithic Headline: I'm VISAKA (Exact Portfolio Aesthetic) -->
+    <g transform="translate(0, 38)">
+      <!-- Line 1: Cursive "I" + Royal Italic "'m" -->
+      <g>
+        <text x="2" y="0" class="cursive glow-white" font-size="36" fill="#FFFFFF">I</text>
+        <text x="24" y="-7" class="royal-italic" font-size="24" fill="#94A3B8">'m</text>
+      </g>
 
-      <!-- Proportional Monolithic VISAKA in Cinzel -->
-      <text x="44" y="1" class="monumental glow-white" font-size="32" font-weight="800" fill="url(#platinumTextGrad)" letter-spacing="0.08em">
-        VISAKA
-      </text>
+      <!-- Line 2: Stacked Monumental VISAKA in Cinzel -->
+      <g transform="translate(0, 38)">
+        <text x="0" y="0" class="monumental glow-white" font-size="38" font-weight="900" fill="url(#platinumTextGrad)" letter-spacing="0.08em">
+          VISAKA
+        </text>
+      </g>
     </g>
 
     <!-- Subtitle & Role -->
-    <g transform="translate(2, 74)">
-      <text x="0" y="0" class="mono" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
+    <g transform="translate(2, 114)">
+      <text x="0" y="0" class="mono" font-size="10.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
         LEAD PENETRATION TESTER &amp; MULTI-CLOUD SPECIALIST
       </text>
-      <text x="0" y="17" class="monumental" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
+      <text x="0" y="16" class="monumental" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
         VEERA GURU DATTA SRINIDHI VISAKA
       </text>
     </g>
 
     <!-- Narrative Paragraph -->
-    <g transform="translate(2, 118)" class="sans" font-size="11" fill="#94A3B8" letter-spacing="0.01em">
+    <g transform="translate(2, 150)" class="sans" font-size="10.5" fill="#94A3B8" letter-spacing="0.01em">
       <text x="0" y="0">Architecting resilient zero-trust enclaves and executing preemptive adversarial</text>
-      <text x="0" y="16">simulations across critical multi-cloud infrastructures. KL University BCA</text>
-      <text x="0" y="32">scholar (8.7 CGPA) with verified field engagements at Edufyi, Corizo &amp; Skill Dunia.</text>
+      <text x="0" y="15">simulations across critical multi-cloud infrastructures. KL University BCA</text>
+      <text x="0" y="30">scholar (8.7 CGPA) with verified field engagements at Edufyi, Corizo &amp; Skill Dunia.</text>
     </g>
 
     <!-- Executive Action Buttons (Portfolio Exact Triplets) -->
-    <g transform="translate(2, 196)" class="mono" font-size="10">
+    <g transform="translate(2, 210)" class="mono" font-size="10">
       <!-- Button 1: Solid White Pill (Explore Projects) -->
       <g>
-        <rect width="154" height="30" rx="15" fill="#FFFFFF" class="glow-soft"/>
-        <text x="70" y="19" fill="#000000" font-weight="800" letter-spacing="0.06em" text-anchor="middle">EXPLORE PROJECTS</text>
-        <text x="138" y="19" fill="#000000" font-weight="800">&gt;</text>
+        <rect width="154" height="28" rx="14" fill="#FFFFFF" class="glow-soft"/>
+        <text x="70" y="18" fill="#000000" font-weight="800" letter-spacing="0.06em" text-anchor="middle">EXPLORE PROJECTS</text>
+        <text x="138" y="18" fill="#000000" font-weight="800">&gt;</text>
       </g>
 
       <!-- Button 2: Dark Glass Pill (>_ CLI) -->
       <g transform="translate(164, 0)">
-        <rect width="84" height="30" rx="15" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
-        <text x="42" y="19" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">&gt;_ CLI</text>
+        <rect width="84" height="28" rx="14" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+        <text x="42" y="18" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">&gt;_ CLI</text>
       </g>
 
       <!-- Button 3: Dark Glass Pill (RESUME) -->
       <g transform="translate(258, 0)">
-        <rect width="98" height="30" rx="15" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
-        <text x="49" y="19" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">RESUME</text>
+        <rect width="98" height="28" rx="14" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+        <text x="49" y="18" fill="#FFFFFF" font-weight="600" letter-spacing="0.06em" text-anchor="middle">RESUME</text>
       </g>
     </g>
   </g>
 
   <!-- ================= RIGHT WING (EXACT PORTFOLIO DOSSIER STATS) ================= -->
-  <g transform="translate(610, 36)">
+  <g transform="translate(612, 32)">
     <!-- Metric 1: Academic Merit -->
     <g transform="translate(0, 0)">
       <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">01 / ACADEMIC MERIT</text>
       <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">8.7 CGPA</text>
-      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">KL University — BCA Scholar (Distinction)</text>
+      <text x="0" y="54" class="sans" font-size="10" fill="#64748B">KL University — BCA Scholar (Distinction)</text>
     </g>
 
     <!-- Hairline Separator -->
-    <line x1="0" y1="68" x2="276" y2="68" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
+    <line x1="0" y1="66" x2="276" y2="66" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
 
     <!-- Metric 2: Field Engagements -->
-    <g transform="translate(0, 82)">
+    <g transform="translate(0, 78)">
       <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">02 / FIELD ENGAGEMENTS</text>
       <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">3 ROLES</text>
-      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">Edufyi • Corizo • Skill Dunia</text>
+      <text x="0" y="54" class="sans" font-size="10" fill="#64748B">Edufyi • Corizo • Skill Dunia</text>
     </g>
 
     <!-- Hairline Separator -->
-    <line x1="0" y1="150" x2="276" y2="150" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
+    <line x1="0" y1="144" x2="276" y2="144" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.1"/>
 
     <!-- Metric 3: Defense Certifications -->
-    <g transform="translate(0, 164)">
+    <g transform="translate(0, 156)">
       <text x="0" y="10" class="mono" font-size="9.5" fill="#94A3B8" letter-spacing="0.18em">03 / DEFENSE CERTIFICATIONS</text>
       <text x="0" y="38" class="monumental glow-white" font-size="28" font-weight="900" fill="url(#statGrad)">11+ BADGES</text>
-      <text x="0" y="54" class="sans" font-size="10.5" fill="#64748B">Aviatrix ACE • Google Cybersecurity</text>
+      <text x="0" y="54" class="sans" font-size="10" fill="#64748B">Aviatrix ACE • Google Cybersecurity</text>
     </g>
 
     <!-- Bottom Command Base Capsule -->
-    <g transform="translate(0, 236)">
-      <rect width="276" height="24" rx="12" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
-      <circle cx="14" cy="12" r="3" fill="#FFFFFF"/>
-      <text x="24" y="16" class="mono" font-size="9" fill="#FFFFFF" letter-spacing="0.06em">
+    <g transform="translate(0, 218)">
+      <rect width="276" height="26" rx="13" fill="#0A0B10" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.25"/>
+      <circle cx="14" cy="13" r="3" fill="#FFFFFF"/>
+      <text x="24" y="17" class="mono" font-size="8.5" fill="#FFFFFF" letter-spacing="0.06em">
         VIJAYAWADA, INDIA // TIER-1 SOC READY
       </text>
     </g>

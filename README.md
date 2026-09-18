@@ -1,17 +1,21 @@
 <div align="center">
 
-<img src="assets/header.svg?v=6" width="100%" alt="Veera Guru Datta Srinidhi Visaka — Sovereign Cyber Command" />
+<img src="assets/header.svg?v=7" width="100%" alt="I'm VISAKA — Lead Penetration Tester &amp; Multi-Cloud Specialist" />
 
 <br/>
 
 <a href="https://chinnu2523.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3400&pause=900&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=840&lines=%2F%2F+Offensive+Cybersecurity+Architect+%26+Multi-Cloud+Specialist;%2F%2F+Architecting+Zero-Trust+Enclaves+(AWS%2C+Azure%2C+GCP%2C+Aviatrix);%2F%2F+Preemptive+Adversarial+Simulations+%26+OWASP+Automation;%2F%2F+KL+University+BCA+Distinction+(8.7+CGPA)+%E2%80%A2+Aviatrix+ACE+Certified;%2F%2F+Real-Time+Threat+Intelligence+%26+Tier-1+SOC+Operations" alt="Typing Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3400&pause=900&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=840&lines=%2F%2F+I'm+VISAKA+%E2%80%94+Lead+Penetration+Tester+%26+Multi-Cloud+Specialist;%2F%2F+Offensive+Cybersecurity+Architect+%26+Multi-Cloud+Specialist;%2F%2F+Architecting+Zero-Trust+Enclaves+(AWS%2C+Azure%2C+GCP%2C+Aviatrix);%2F%2F+Preemptive+Adversarial+Simulations+%26+OWASP+Automation;%2F%2F+KL+University+BCA+Distinction+(8.7+CGPA)+%E2%80%A2+Aviatrix+ACE+Certified;%2F%2F+Real-Time+Threat+Intelligence+%26+Tier-1+SOC+Operations" alt="Typing Telemetry" />
 </a>
 
 <br/>
 
 <a href="https://chinnu2523.github.io" target="_blank">
-  <img src="https://img.shields.io/badge/🌐_SOVEREIGN_PORTFOLIO-chinnu2523.github.io-FFFFFF?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/I'm_VISAKA-Sovereign_Executive-FFFFFF?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="I'm VISAKA" />
+</a>
+&nbsp;
+<a href="https://chinnu2523.github.io" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_PORTFOLIO-chinnu2523.github.io-FFFFFF?style=for-the-badge&labelColor=000000&color=FFFFFF" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://linkedin.com/in/visaka-srinidhi-a445a82al" target="_blank">
@@ -26,7 +30,7 @@
 
 <br/><br/>
 
-<img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 
 </div>
 
@@ -35,13 +39,13 @@
 ```bash
 # Terminal Identity & Attestation Verification
 $ whoami --attestation
-Identity:    Veera Guru Datta Srinidhi Visaka [Lead Penetration Tester & Multi-Cloud Architect]
+Identity:    I'm VISAKA // Veera Guru Datta Srinidhi Visaka [Lead Penetration Tester & Multi-Cloud Architect]
 Attestation: Ed25519 Verified // Tier-1 SOC Ready // 8.7 CGPA KL University Distinction
 Status:      Open for Strategic Security Engagements, Red Team Roles & Cloud Architecture
 ```
 
 <div align="center">
-  <img src="assets/bento_dossier.svg?v=6" width="100%" alt="Strategic Executive Dossier Bento Grid" />
+  <img src="assets/bento_dossier.svg?v=7" width="100%" alt="Strategic Executive Dossier Bento Grid" />
 </div>
 
 <br/>
@@ -76,7 +80,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 </table>
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## ⚙️ [ 02 ] Real-World Engineering &amp; Defense Modules
@@ -89,7 +93,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **MODULE::04<br/>TATA Enterprise Cyber Defense Simulation** | Identity Access &amp; Incident Triage | `IAM` `Active Directory` `Incident Triage` `Forage` | End-to-end enterprise identity governance review, privilege escalation prevention, and incident triage response playbooks. |
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## 🛡️ [ 03 ] Sovereign Technical Arsenal
@@ -127,7 +131,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 </p>
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## 📜 [ 04 ] Accredited Credentials &amp; Certifications
@@ -142,7 +146,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **Enterprise Cybersecurity Analyst Simulation** | TATA / Forage | Incident Response &amp; IAM Hardening | Simulation Completed |
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## 💼 Verified Field Engagements
@@ -171,14 +175,14 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 ```
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## 📊 [ 05 ] Threat Neutralization &amp; GitHub Telemetry
 
 <div align="center">
 
-<img src="assets/cyber_metrics.svg?v=6" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
+<img src="assets/cyber_metrics.svg?v=7" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
 
 <br/><br/>
 
@@ -189,7 +193,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 <br/>
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
 </div>
 
 ## 📬 [ 06 ] Diplomatic Dispatch &amp; Secure Inquiries
@@ -228,7 +232,7 @@ Attestation: All repositories and cryptographic artifacts certified tamper-proof
 ```
 
 <div align="center">
-  <img src="assets/divider.svg?v=6" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=7" width="100%" alt="Divider" />
   <p align="center">
     <sub>⚜️ SOVEREIGN EXECUTIVE CYBERSECURITY ARCHITECTURE // SRINIDHI VISAKA ⚜️</sub><br/>
     <sub>Engineered with Precision &amp; Passion • All Rights Reserved</sub>
