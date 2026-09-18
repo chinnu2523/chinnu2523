@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Veera Guru Datta Srinidhi Visaka — Sovereign Cyber Command" />
+<img src="assets/header.svg?v=2" width="100%" alt="Veera Guru Datta Srinidhi Visaka — Sovereign Cyber Command" />
 
 <br/>
 
@@ -26,7 +26,7 @@
 
 <br/><br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 
 </div>
 
@@ -41,7 +41,7 @@ Status:      Open for Strategic Security Engagements, Red Team Roles & Cloud Arc
 ```
 
 <div align="center">
-  <img src="assets/bento_dossier.svg" width="100%" alt="Strategic Executive Dossier Bento Grid" />
+  <img src="assets/bento_dossier.svg?v=2" width="100%" alt="Strategic Executive Dossier Bento Grid" />
 </div>
 
 <br/>
@@ -76,7 +76,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 </table>
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## ⚙️ [ 02 ] Real-World Engineering &amp; Defense Modules
@@ -89,7 +89,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **MODULE::04<br/>TATA Enterprise Cyber Defense Simulation** | Identity Access &amp; Incident Triage | `IAM` `Active Directory` `Incident Triage` `Forage` | End-to-end enterprise identity governance review, privilege escalation prevention, and incident triage response playbooks. |
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## 🛡️ [ 03 ] Sovereign Technical Arsenal
@@ -127,7 +127,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 </p>
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## 📜 [ 04 ] Accredited Credentials &amp; Certifications
@@ -142,7 +142,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 | 🏢 **Enterprise Cybersecurity Analyst Simulation** | TATA / Forage | Incident Response &amp; IAM Hardening | Simulation Completed |
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## 💼 Verified Field Engagements
@@ -171,14 +171,14 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 ```
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## 📊 [ 05 ] Threat Neutralization &amp; GitHub Telemetry
 
 <div align="center">
 
-<img src="assets/cyber_metrics.svg" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
+<img src="assets/cyber_metrics.svg?v=2" width="100%" alt="Empirical Defense Metrics &amp; Telemetry" />
 
 <br/><br/>
 
@@ -189,7 +189,7 @@ Armed with field-tested internship experience across **Edufyi Tech Solutions**, 
 <br/>
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
 </div>
 
 ## 📬 [ 06 ] Diplomatic Dispatch &amp; Secure Inquiries
@@ -228,7 +228,7 @@ Attestation: All repositories and cryptographic artifacts certified tamper-proof
 ```
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg?v=2" width="100%" alt="Divider" />
   <p align="center">
     <sub>⚜️ SOVEREIGN EXECUTIVE CYBERSECURITY ARCHITECTURE // SRINIDHI VISAKA ⚜️</sub><br/>
     <sub>Engineered with Precision &amp; Passion • All Rights Reserved</sub>
