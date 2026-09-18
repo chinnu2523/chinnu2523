@@ -121,7 +121,7 @@
   </g>
 
   <!-- ================= LEFT WING (EXACT PORTFOLIO HERO) ================= -->
-  <g transform="translate(32, 38)">
+  <g transform="translate(32, 44)">
     <!-- Whisper-Thin Clearance Kicker -->
     <g transform="translate(0, 0)">
       <circle cx="5" cy="5" r="3" fill="#FFFFFF" class="glow-soft"/>
@@ -130,37 +130,37 @@
       </text>
     </g>
 
-    <!-- Stacked Monolithic Headline: I'm VISAKA (Exact Portfolio Styling) -->
-    <g transform="translate(0, 48)">
+    <!-- Stacked Monolithic Headline: I'm VISAKA (Refined Proportional Styling) -->
+    <g transform="translate(0, 40)">
       <!-- Cursive "I" + Royal Italic "'m" -->
-      <text x="0" y="0" class="cursive glow-white" font-size="46" fill="#FFFFFF">I</text>
-      <text x="20" y="-8" class="royal-italic" font-size="30" fill="#94A3B8">'m</text>
+      <text x="0" y="0" class="cursive glow-white" font-size="28" fill="#FFFFFF">I</text>
+      <text x="14" y="-6" class="royal-italic" font-size="18" fill="#94A3B8">'m</text>
 
-      <!-- Giant Monolithic VISAKA in Cinzel -->
-      <text x="64" y="2" class="monumental glow-white" font-size="52" font-weight="900" fill="url(#platinumTextGrad)" letter-spacing="0.06em">
+      <!-- Proportional Monolithic VISAKA in Cinzel -->
+      <text x="44" y="1" class="monumental glow-white" font-size="32" font-weight="800" fill="url(#platinumTextGrad)" letter-spacing="0.08em">
         VISAKA
       </text>
     </g>
 
     <!-- Subtitle & Role -->
-    <g transform="translate(2, 88)">
-      <text x="0" y="0" class="mono" font-size="11.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
+    <g transform="translate(2, 74)">
+      <text x="0" y="0" class="mono" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
         LEAD PENETRATION TESTER &amp; MULTI-CLOUD SPECIALIST
       </text>
-      <text x="0" y="18" class="monumental" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
+      <text x="0" y="17" class="monumental" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="0.22em">
         VEERA GURU DATTA SRINIDHI VISAKA
       </text>
     </g>
 
     <!-- Narrative Paragraph -->
-    <g transform="translate(2, 134)" class="sans" font-size="11" fill="#94A3B8" letter-spacing="0.01em">
+    <g transform="translate(2, 118)" class="sans" font-size="11" fill="#94A3B8" letter-spacing="0.01em">
       <text x="0" y="0">Architecting resilient zero-trust enclaves and executing preemptive adversarial</text>
       <text x="0" y="16">simulations across critical multi-cloud infrastructures. KL University BCA</text>
       <text x="0" y="32">scholar (8.7 CGPA) with verified field engagements at Edufyi, Corizo &amp; Skill Dunia.</text>
     </g>
 
     <!-- Executive Action Buttons (Portfolio Exact Triplets) -->
-    <g transform="translate(2, 212)" class="mono" font-size="10">
+    <g transform="translate(2, 196)" class="mono" font-size="10">
       <!-- Button 1: Solid White Pill (Explore Projects) -->
       <g>
         <rect width="154" height="30" rx="15" fill="#FFFFFF" class="glow-soft"/>
